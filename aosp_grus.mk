@@ -25,3 +25,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="grus-user 11 RKQ1.200826.002 V12.5.4.0.RFBCNXM release-keys" \
     BuildFingerprint=Xiaomi/grus/grus:11/RKQ1.200826.002/V12.5.4.0.RFBCNXM:user/release-keys
+
+## framework compatibility matrices
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    device/xiaomi/grus/compatibility_matrix.xml
+DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
+    device/xiaomi/grus/compatibility_matrix.xml
